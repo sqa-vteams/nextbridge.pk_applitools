@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="softwaretestingmaterial">
+	<test name="testngTest">
+		<classes>
+			<parameter name="Batch" value="First Five"/>
+			<parameter name="appName" value="First Five test App"/>
+			<parameter name="testName" value="First Five Tests"/>
+			<class name="nextbridge.pk_VisualValidation_MainCode.mainPage">
+				<methods>
+					<include name="mainPageOpening">
+					</include>
+					<include name="mainPageScreen">
+					</include>
+					<include name="aboutClick">
+					</include>
+					<include name="contactClick">
+					</include>
+					<include name="servicesclick">
+					</include>
+					<include name="technologiesclick">
+					</include>
+					<exclude name="roboticsWorkClick">
+					</exclude>
+					<exclude name="socialActivitiesClick">
+					</exclude>
+					<exclude name="careersClick">
+					</exclude>
+					<include name="Destroy">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

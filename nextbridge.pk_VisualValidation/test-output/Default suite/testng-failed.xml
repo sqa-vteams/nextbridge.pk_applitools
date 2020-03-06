@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="nextbridge.pk_VisualValidation_MainCode.mainPage">
+        <methods>
+          <include name="servicesclick"/>
+          <include name="socialActivitiesClick"/>
+          <include name="careersClick"/>
+          <include name="mainPageOpening"/>
+          <include name="technologiesclick"/>
+          <include name="aboutClick"/>
+          <include name="roboticsWorkClick"/>
+          <include name="mainPageScreen"/>
+          <include name="contactClick"/>
+        </methods>
+      </class> <!-- nextbridge.pk_VisualValidation_MainCode.mainPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
